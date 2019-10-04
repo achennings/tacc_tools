@@ -1,14 +1,20 @@
 # create the fmriprep and MRIqc singularity images on TACC allocation
-# puts it in a folder called "fmriprep" in your $WORK directory
+# puts the images in a folder in $WORK called bids-apps
 
 module load tacc-singularity
 
-FMRIPREP_VERS=1.4.0
-
-DEST=${WORK}/fmriprep.${FMRIPREP_VERS}.simg
-
+DEST=${WORK}/bids-apps
 mkdir ${DEST}
 
+FMRIPREP_VERS=1.4.0
+MRIQC_VERS=0.15.0
+#for all intents and purposes this should work but something is wrong with my python version and doesn't run for me, try it anyways...
+
 singularity build \
-    ${DEST} \
+    ${DEST}/fmriprep.${FMRIPREP_VERS}.simg \
     docker://poldracklab/fmriprep:${FMRIPREP_VERS}
+
+singularity build \
+    ${DEST}/mriqc.${MRIQC_VERS}.simg \
+    docker://poldracklab/mriqc:${MRIQC_VERS}
+

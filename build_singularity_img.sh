@@ -4,7 +4,7 @@
 module load tacc-singularity
 
 DEST=${WORK}/bids-apps
-mkdir ${DEST}
+mkdir -p ${DEST}
 
 FMRIPREP_VERS=1.4.0
 MRIQC_VERS=0.15.0

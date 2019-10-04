@@ -37,7 +37,10 @@ cd $WORK/fmriprep
 module load tacc-singularity
 
 # Run fmriprep
-singularity run --cleanenv ${image} ${in} ${out} participant \
+singularity run --cleanenv ${image} \
+    --bids_dir ${in} \
+    --output_dir ${out} \
+    --analysis_level paticiapnt \
     --participant-label ${SUBJ} \
     --fs-license-file ${fslicense_file} \
     --output-spaces MNI152NLin2009cAsym T1w \

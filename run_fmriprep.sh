@@ -36,11 +36,13 @@ cd $WORK/fmriprep
 # load singularity
 module load tacc-singularity
 
+echo ${in}
+echo ${out}
 # Run fmriprep
 singularity run --cleanenv ${image} \
     --bids_dir ${in} \
     --output_dir ${out} \
-    --analysis_level paticiapnt \
+    --analysis_level participant \
     --participant-label ${SUBJ} \
     --fs-license-file ${fslicense_file} \
     --output-spaces MNI152NLin2009cAsym T1w \

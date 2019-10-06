@@ -8,4 +8,4 @@
 
 
 
-launch -N 3 -n 3 -J fmriprep -s fmriprep_job.txt -m achennings@utexas.edu -p normal -r 48:00:00 -A fMRI-Fear-Conditioni
+launch -N 3 -n 3 -J mriqc -s jobs/mriqc_job.txt -m achennings@utexas.edu -p normal -r 48:00:00 -A fMRI-Fear-Conditioni

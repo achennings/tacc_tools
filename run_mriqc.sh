@@ -28,9 +28,8 @@ module load tacc-singularity
 singularity run --cleanenv ${image} ${in} ${out} participant \
     --participant_label ${SUBJ} \
     --modalities T1w T2w bold \
-    --n_procs 24 --mem_mb 64000 \
+    --n_procs 24 --mem_gb 64 \
     -w ${qc_work} \
     --no-sub \
     --float32 \
     --hmc-fsl \
-    --test

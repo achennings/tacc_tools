@@ -1,0 +1,3 @@
+sh run_mirqc.sh -s CCX007
+sh run_mriqc.sh -s CCX008
+sh run_mriqc.sh -s CCX009

@@ -25,7 +25,7 @@ prep_work="$WORK/fmriprep"
 mkdir -p ${prep_work}
 
 #point to Freesurfer licesnse file (thanks Harvard) 
-fslicense_file="/work/IRC/ls5/opt/apps/freesurfer-6.0.0/lincense.txt"
+#fslicense_file=$WORK/bids-apps/freesurfer_lincense.txt
 
 # make output directory
 mkdir -p ${out}
@@ -35,16 +35,12 @@ cd $WORK/fmriprep
 
 # load singularity
 module load tacc-singularity
+echo ${fslicense_file}
 
-echo ${in}
-echo ${out}
 # Run fmriprep
-singularity run --cleanenv ${image} \
-    --bids_dir ${in} \
-    --output_dir ${out} \
-    --analysis_level participant \
-    --participant-label ${SUBJ} \
-    --fs-license-file ${fslicense_file} \
+singularity run --cleanenv ${image} ${in} ${out} participant \
+    --participant_label ${SUBJ} \
     --output-spaces MNI152NLin2009cAsym T1w \
-    --nthreads 24 --mem_mb 64000 \
-    -w $WORK/fmriprep/work
+    --nthreads 12 --mem_mb 64000 \
+    -w $WORK/fmriprep/work \
+    --fs-license-file $WORK/bids-apps/freesurfer_license.txt

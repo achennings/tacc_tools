@@ -1,1 +1,3 @@
-run_fmriprep.sh -s CCX007
+sh run_fmriprep.sh -s CCX007
+sh run_fmriprep.sh -s CCX008
+sh run_fmriprep.sh -s CCX009

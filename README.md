@@ -1,5 +1,5 @@
 # TACC & BASH Basics
-### How to access Lonestar
+## How to access Lonestar
 - either SSH from a terminal or use an application such as PuTTy
 - There are 3 login nodes, but if you don't specify one then you will get first available
 - `ssh -Y username@ls5.tacc.utexas.edu`
@@ -7,7 +7,7 @@
 - DO NOT RUN CODE ON LOGIN NODE
     + that being said, I usually feel ok running scripts that move files or generate text files for batch jobs. But, when in doubt, go `idev`
 
-### Moving around Lonestar
+## Moving around Lonestar
 - everyone gets a Home and Work directory
     + when you log in you should see the total space and % used of each
 - environment variables are your friend, no settup required
@@ -17,8 +17,8 @@
     + this is the command line text editor that is easiest to use for quick edits of code when you don't want to go through pulling and pushing from local
 - `l` or `ls` with the different flags `-a` are useful for seeing whats in a directory, `rm` to delete things, `mv` to rename/move things, `-R` to delete or move folders
 
-### Putting files on Lonestar
-#### Files
+## Putting files on Lonestar
+### Files
 - I use `scp` to transfer files and folders. To transfer a `folder` you have to have the `-r` flag, but not for files.
 - In general, a basic command is `scp -r "from/here" "to/here"` 
 - putting a folder onto TACC
@@ -26,22 +26,22 @@
 - From TACC to local
     + `scp -r ach3377@ls5.tacc.utexas.edu:"/work/05426/ach3377/lonestar/CCX-bids/derivatives/fmriprep" "/Users/ach3377/"`
 
-#### Code
+### Code
 - You _could_ use scp as above, but for code I would use `git`!
 - There are tonnes of tutorials for basic usage of git out there, including the coding_club repo on the dunsmoorlab github
 - If you ever get an SSL error, try the following `git config --global http.sslverify false`
 
-### Running Code
+## Running Code
 Just to reiterate, this is how _I_ do it, not necessarily the best way.
 
-#### idev
+### idev
 sometimes, you really need to be able to debug your code in real time. idev jobs allow you to interactively use a compute node for some time
 
 To start an idev session: `idev -m 120`, where `-m` is how long you are requesting it for (2hrs is the max)
 
 Its always better to test if something will run in idev first, instead of submitting jobs to test. If your jobs error enough times in a certain time period, you _can_ get penalized by TACC.
 
-#### launch
+### launch
 I use `launch`, which I believe can be loaded using `module load launcher`
 
 The reason I like using `launch` is that it allows you to very easily create a job that will run code in parallel on multiple different Nodes.
@@ -78,6 +78,6 @@ python3 my_script.py -s 4
 
 I just keep 1 `launch.sh` script around, and then edit the name of the text file and time, and then submit a job `sh launch.sh`
 
-#### Checking job status
+### Checking job status
 - `showq` displays all current jobs, `showq -u` filters for just your jobs
 - to cancel a job before or while running, `scancel JOBID`, where jobid is the # of the job as found in queue

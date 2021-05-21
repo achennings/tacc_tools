@@ -9,19 +9,19 @@ while getopts :s: opt; do
 done
 
 # Set up inputs, parameters, and outputs
-image="$WORK/bids-apps/fmriprep.1.4.0.simg"
+image="$SCRATCH/bids-apps/fmriprep.1.5.4.simg"
 
 # It is on you to make sure that these folders exist before running
-dataset_name="CCX-bids"
+dataset_name="fc-bids"
 
-in="$WORK/$dataset_name"
+in="$SCRATCH/$dataset_name"
 
 #point too and make output dir
-out="$WORK/$dataset_name/derivatives"
+out="$SCRATCH/$dataset_name/derivatives"
 mkdir -p ${out}
 
 #point to and make fmripre working dir
-prep_work="$WORK/fmriprep"
+prep_work="$SCRATCH/fmriprep"
 mkdir -p ${prep_work}
 
 #point to Freesurfer licesnse file (thanks Harvard) 
@@ -32,7 +32,7 @@ mkdir -p ${prep_work}
 mkdir -p ${out}
 
 # move into work directory
-cd $WORK/fmriprep
+cd $SCRATCH/fmriprep
 
 # load singularity
 module load tacc-singularity
@@ -40,7 +40,7 @@ module load tacc-singularity
 # Run fmriprep
 singularity run --cleanenv ${image} ${in} ${out} participant \
     --participant_label ${SUBJ} \
-    --output-spaces MNI152NLin2009cAsym T1w \
+    --output-spaces MNI152NLin2009cAsym T1w fsnative \
     --nthreads 12 --mem_mb 64000 \
     -w ${prep_work} \
     --fs-license-file $WORK/bids-apps/freesurfer_license.txt

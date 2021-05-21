@@ -16,19 +16,19 @@ while getopts s:g opt; do
 done	 
 
 # Set up inputs, parameters, and outputs
-image="$WORK/bids-apps/mriqc.0.15.0.simg"
+image="$SCRATCH/bids-apps/mriqc.0.15.1.simg"
 
 # It is on you to make sure that these folders exist before running
-dataset_name="CCX-bids"
+dataset_name="fc-bids"
 
-in="$WORK/$dataset_name"
+in="$SCRATCH/$dataset_name"
 
 #point too and make output dir
-out="${WORK}/${dataset_name}/derivatives/mriqc"
+out="${SCRATCH}/${dataset_name}/derivatives/mriqc"
 mkdir -p ${out}
 
 #point to and make fmriprep working dir
-qc_work="$WORK/mriqc"
+qc_work="$SCRATCH/mriqc"
 mkdir -p ${qc_work}
 
 # make output directory
@@ -44,17 +44,17 @@ module load tacc-singularity
 if $group_level
 then
   singularity run --cleanenv ${image} ${in} ${out} group \
-      --modalities T1w T2w bold \
+      --modalities T1w bold \
       --n_procs 12 --mem_gb 64 \
       -w ${qc_work} \
       --no-sub \
       --float32 \
       --hmc-fsl
 else
-#Run fmriprep
+#Run mriqc
   singularity run --cleanenv ${image} ${in} ${out} participant \
       --participant_label ${SUBJ} \
-      --modalities T1w T2w bold \
+      --modalities T1w bold \
       --n_procs 12 --mem_gb 64 \
       -w ${qc_work} \
       --no-sub \

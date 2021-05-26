@@ -10,10 +10,14 @@ MRIQC_VERS=0.16.1
 
 SINGULARITY_NOHTTPS=yes 
 
-singularity build \
-    ${DEST}/fmriprep.simg \
-    docker://nipreps/fmriprep:${FMRIPREP_VERS}
+#singularity build \
+#    ${DEST}/fmriprep.simg \
+#    docker://nipreps/fmriprep:${FMRIPREP_VERS}
+
+#singularity build \
+#    ${DEST}/mriqc.simg \
+#    docker://poldracklab/mriqc:${MRIQC_VERS}
 
 singularity build \
-    ${DEST}/mriqc.simg \
-    docker://poldracklab/mriqc:${MRIQC_VERS}
+    ${DEST}/neurodocker.simg \
+    docker://achennings/neurodocker:latest

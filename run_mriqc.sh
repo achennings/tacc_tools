@@ -19,7 +19,7 @@ done
 image="$SCRATCH/bids-apps/mriqc.0.15.1.simg"
 
 # It is on you to make sure that these folders exist before running
-dataset_name="fc-bids"
+dataset_name="ft-bids"
 
 in="$SCRATCH/$dataset_name"
 

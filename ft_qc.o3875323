@@ -1,0 +1,1042 @@
+ Starting at Fri Dec 17 16:19:30 CST 2021
+ WORKING DIR: /home1/05426/ach3377/tacc_tools/
+ JOB ID:      3875323
+ JOB NAME:    ft_qc
+ NODES:       c112-[163-164],c174-[082-084]
+ N NODES:     5
+ N TASKS:     30
+Launcher: Setup complete.
+
+------------- SUMMARY ---------------
+   Number of hosts:    5
+   Working directory:  /home1/05426/ach3377/tacc_tools
+   Processes per host: 6
+   Total processes:    30
+   Total jobs:         30
+   Scheduling method:  dynamic
+
+-------------------------------------
+Launcher: Starting parallel tasks...
+using /tmp/launcher.3875323.hostlist.Bnfehugb to get hosts
+starting job on c112-163
+starting job on c112-164
+starting job on c174-082
+starting job on c174-083
+starting job on c174-084
+Warning: Permanently added 'c112-163' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'c174-084' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'c174-083' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'c112-164' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'c174-082' (ECDSA) to the list of known hosts.
+Launcher: Task 24 running job 1 on c174-084.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT002)
+bids dataset ft
+running MRIqc on subject sub-FT002
+Launcher: Task 4 running job 2 on c112-163.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT003)
+bids dataset ft
+running MRIqc on subject sub-FT003
+Launcher: Task 12 running job 3 on c174-082.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT010)
+bids dataset ft
+running MRIqc on subject sub-FT010
+Launcher: Task 16 running job 4 on c174-082.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT012)
+bids dataset ft
+running MRIqc on subject sub-FT012
+Launcher: Task 26 running job 5 on c174-084.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT016)
+bids dataset ft
+running MRIqc on subject sub-FT016
+Launcher: Task 1 running job 6 on c112-163.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT017)
+bids dataset ft
+running MRIqc on subject sub-FT017
+Launcher: Task 2 running job 7 on c112-163.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT018)
+bids dataset ft
+running MRIqc on subject sub-FT018
+Launcher: Task 28 running job 8 on c174-084.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT023)
+bids dataset ft
+running MRIqc on subject sub-FT023
+Launcher: Task 29 running job 9 on c174-084.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT025)
+bids dataset ft
+running MRIqc on subject sub-FT025
+Launcher: Task 22 running job 10 on c174-083.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT027)
+Launcher: Task 21 running job 11 on c174-083.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT028)
+bids dataset ft
+bids dataset ft
+running MRIqc on subject sub-FT027
+running MRIqc on subject sub-FT028
+Launcher: Task 10 running job 14 on c112-164.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT032)
+Launcher: Task 8 running job 12 on c112-164.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT029)
+Launcher: Task 11 running job 13 on c112-164.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT030)
+bids dataset ft
+bids dataset ft
+bids dataset ft
+running MRIqc on subject sub-FT032
+running MRIqc on subject sub-FT029
+running MRIqc on subject sub-FT030
+Launcher: Task 15 running job 15 on c174-082.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT033)
+Launcher: Task 27 running job 16 on c174-084.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT034)
+Launcher: Task 25 running job 17 on c174-084.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT035)
+bids dataset ft
+running MRIqc on subject sub-FT033
+bids dataset ft
+running MRIqc on subject sub-FT034
+bids dataset ft
+Launcher: Task 20 running job 18 on c174-083.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT037)
+running MRIqc on subject sub-FT035
+Launcher: Task 6 running job 19 on c112-164.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT038)
+bids dataset ft
+running MRIqc on subject sub-FT037
+bids dataset ft
+running MRIqc on subject sub-FT038
+Launcher: Task 5 running job 20 on c112-163.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT039)
+bids dataset ft
+running MRIqc on subject sub-FT039
+Launcher: Task 19 running job 21 on c174-083.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT040)
+bids dataset ft
+running MRIqc on subject sub-FT040
+Launcher: Task 17 running job 22 on c174-082.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT043)
+bids dataset ft
+running MRIqc on subject sub-FT043
+Launcher: Task 23 running job 23 on c174-083.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT045)
+bids dataset ft
+running MRIqc on subject sub-FT045
+Launcher: Task 3 running job 24 on c112-163.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT046)
+bids dataset ft
+running MRIqc on subject sub-FT046
+Launcher: Task 18 running job 25 on c174-083.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT047)
+bids dataset ft
+running MRIqc on subject sub-FT047
+Launcher: Task 0 running job 26 on c112-163.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT048)
+bids dataset ft
+running MRIqc on subject sub-FT048
+Launcher: Task 13 running job 28 on c174-082.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT050)
+Launcher: Task 14 running job 27 on c174-082.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT049)
+bids dataset ft
+running MRIqc on subject sub-FT050
+bids dataset ft
+running MRIqc on subject sub-FT049
+Launcher: Task 9 running job 29 on c112-164.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT052)
+bids dataset ft
+running MRIqc on subject sub-FT052
+Launcher: Task 7 running job 30 on c112-164.frontera.tacc.utexas.edu (bash /home1/05426/ach3377/tacc_tools/qc.sh -d ft -s sub-FT053)
+bids dataset ft
+running MRIqc on subject sub-FT053
+211217-16:20:01,634 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,657 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,666 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,672 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,674 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,674 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,685 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,690 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,710 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,722 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,723 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,728 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,762 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,764 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,765 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:01,989 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:02,15 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:03,59 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:03,67 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+usage: mriqc [-h] [--version] [-v]
+             [--participant-label PARTICIPANT_LABEL [PARTICIPANT_LABEL ...]]
+             [--session-id [SESSION_ID [SESSION_ID ...]]]
+             [--run-id [RUN_ID [RUN_ID ...]]]
+             [--task-id [TASK_ID [TASK_ID ...]]]
+             [-m [MODALITIES [MODALITIES ...]]] [--dsname DSNAME]
+             [--bids-database-dir PATH] [--nprocs NPROCS]
+             [--omp-nthreads OMP_NTHREADS] [--mem MEMORY_GB] [--testing] [-f]
+             [--pdb] [-w WORK_DIR] [--verbose-reports] [--write-graph]
+             [--dry-run] [--profile] [--use-plugin USE_PLUGIN] [--no-sub]
+             [--email EMAIL] [--webapi-url WEBAPI_URL]
+             [--webapi-port WEBAPI_PORT] [--upload-strict] [--ants-float]
+             [--ants-settings ANTS_SETTINGS] [--ica] [--fft-spikes-detector]
+             [--fd_thres FD_THRES] [--deoblique] [--despike]
+             [--start-idx START_IDX] [--stop-idx STOP_IDX]
+             [--correct-slice-timing]
+             bids_dir output_dir {participant,group} [{participant,group} ...]
+mriqc: error: One or more participant labels were not found in the BIDS directory: FT046.
+211217-16:20:03,196 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+Launcher: Job 24 completed in 13 seconds.
+Launcher: Task 3 done. Exiting.
+211217-16:20:03,443 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:03,501 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:03,612 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:03,726 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:03,969 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:04,155 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:04,277 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:06,921 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:07,3 cli IMPORTANT:
+	 
+    Running MRIQC version 21.0.0rc2:
+      * BIDS dataset path: /scratch1/05426/ach3377/ft-bids.
+      * Output folder: /scratch1/05426/ach3377/qc/ft.
+      * Analysis levels: ['participant'].
+
+211217-16:20:25,436 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,468 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,517 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,563 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,567 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,578 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,579 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,596 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,604 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,604 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,627 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,638 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,645 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,656 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,661 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,662 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,664 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,674 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,690 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,697 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,699 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,707 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,745 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,748 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,813 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,831 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:25,869 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:26,818 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:20:27,112 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:22:09,54 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:22:09,54 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:22:09,54 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:22:09,54 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:33:23,601 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:33:51,542 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:33:53,550 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:33:54,17 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:33:55,139 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:33:55,941 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:06,0 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:06,32 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:08,119 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:10,65 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:10,644 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:11,60 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:12,344 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:12,495 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:12,754 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:13,381 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:13,497 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:13,505 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:14,249 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:15,812 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:16,663 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:16,854 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:17,458 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:18,90 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:18,167 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:18,170 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:18,699 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:18,929 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:19,13 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:19,317 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:19,852 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:20,161 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:20,871 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:22,106 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:23,535 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:25,381 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:25,518 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:26,44 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:26,265 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:36,34 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:36,754 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:37,112 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:37,976 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:38,832 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:38,836 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:39,580 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:39,986 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:40,801 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:41,20 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:41,225 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:41,987 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:42,933 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:43,662 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:46,241 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:47,617 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:47,785 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:48,242 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:48,494 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:48,630 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:49,255 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:49,541 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:49,786 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:50,61 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:50,324 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:50,484 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:50,570 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:50,850 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:50,972 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:51,613 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:51,741 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:51,855 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:51,988 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:52,240 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:52,520 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:52,811 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:52,890 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:53,237 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:53,357 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:53,596 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:53,679 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:53,904 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:54,240 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:54,520 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:55,128 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:56,193 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:56,275 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:57,676 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:57,863 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:57,870 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:57,998 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:58,88 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:58,372 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:59,347 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:34:59,880 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:01,682 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:01,704 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:01,735 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:02,648 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:02,731 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:02,846 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:05,658 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:06,521 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:06,539 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:07,682 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:08,78 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:09,138 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:10,74 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:11,711 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:35:11,711 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 1 completed in 940 seconds.
+Launcher: Task 24 done. Exiting.
+211217-16:35:12,487 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:14,477 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:14,481 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:15,872 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:16,456 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:17,578 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:19,550 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:35:39,173 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:03,514 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:10,749 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:20,84 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:34,604 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:39,626 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:40,740 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:43,61 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:45,74 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:49,222 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:49,798 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:52,20 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:39:54,38 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:01,194 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:05,163 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:05,473 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:10,528 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:13,764 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:15,454 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:17,202 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:17,250 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:40:17,251 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 7 completed in 1235 seconds.
+Launcher: Task 2 done. Exiting.
+211217-16:40:18,660 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:22,699 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:22,749 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:23,972 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:27,93 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:28,495 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:31,224 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:40:31,224 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 20 completed in 1243 seconds.
+Launcher: Task 5 done. Exiting.
+211217-16:40:33,491 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:34,724 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:34,762 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:35,968 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:36,3 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:36,20 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:38,342 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:39,845 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:41,973 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:42,663 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:46,550 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:46,798 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:47,432 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:50,54 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:50,648 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:40:50,648 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 26 completed in 1259 seconds.
+Launcher: Task 0 done. Exiting.
+211217-16:40:52,6 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:52,69 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:52,336 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:52,894 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:56,331 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:40:56,331 cli IMPORTANT:
+	 Participant level finished successfully.
+211217-16:40:56,419 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:40:56,419 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 2 completed in 1283 seconds.
+Launcher: Task 4 done. Exiting.
+Launcher: Job 6 completed in 1276 seconds.
+Launcher: Task 1 done. Exiting.
+211217-16:40:57,89 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:58,472 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:59,162 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:40:59,948 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:02,647 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:04,555 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:05,289 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:05,559 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:05,875 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:05,950 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:07,431 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:08,349 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:08,803 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:12,556 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:12,723 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:15,520 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:15,949 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:17,952 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:19,967 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:20,17 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:20,17 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 17 completed in 1294 seconds.
+Launcher: Task 25 done. Exiting.
+211217-16:41:21,56 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:21,773 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:22,339 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:22,369 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:22,718 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:24,47 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:24,47 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 9 completed in 1302 seconds.
+Launcher: Task 29 done. Exiting.
+211217-16:41:24,528 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:25,76 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:25,80 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:25,508 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:26,683 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:28,57 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:28,519 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:30,49 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:31,952 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:32,252 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:32,338 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:32,441 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:32,467 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:32,577 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:32,612 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:32,612 cli IMPORTANT:
+	 Participant level finished successfully.
+211217-16:41:32,839 cli WARNING:
+	 Building bold report: no exclude index was found
+Launcher: Job 8 completed in 1310 seconds.
+Launcher: Task 28 done. Exiting.
+211217-16:41:32,950 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:34,180 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:34,180 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 5 completed in 1317 seconds.
+Launcher: Task 26 done. Exiting.
+211217-16:41:34,810 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:35,504 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:36,419 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:36,419 cli IMPORTANT:
+	 Participant level finished successfully.
+211217-16:41:36,426 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:36,696 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:36,696 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 4 completed in 1321 seconds.
+Launcher: Task 16 done. Exiting.
+Launcher: Job 16 completed in 1310 seconds.
+Launcher: Task 27 done. Exiting.
+211217-16:41:37,786 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:37,790 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:39,315 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:39,569 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:39,570 cli IMPORTANT:
+	 Participant level finished successfully.
+211217-16:41:39,619 cli WARNING:
+	 Building bold report: no exclude index was found
+Launcher: Job 22 completed in 1310 seconds.
+Launcher: Task 17 done. Exiting.
+211217-16:41:39,915 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:41,791 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:42,467 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:43,97 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:43,97 cli IMPORTANT:
+	 Participant level finished successfully.
+211217-16:41:43,341 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:43,341 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 28 completed in 1312 seconds.
+Launcher: Task 13 done. Exiting.
+211217-16:41:43,541 cli WARNING:
+	 Building bold report: no exclude index was found
+Launcher: Job 3 completed in 1329 seconds.
+Launcher: Task 12 done. Exiting.
+211217-16:41:45,290 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:45,394 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:45,873 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:45,873 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 23 completed in 1317 seconds.
+Launcher: Task 23 done. Exiting.
+211217-16:41:46,568 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:46,569 cli IMPORTANT:
+	 Participant level finished successfully.
+211217-16:41:46,804 cli WARNING:
+	 Building bold report: no exclude index was found
+Launcher: Job 21 completed in 1318 seconds.
+Launcher: Task 19 done. Exiting.
+211217-16:41:47,672 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:47,672 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 27 completed in 1316 seconds.
+Launcher: Task 14 done. Exiting.
+211217-16:41:49,477 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:49,542 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:49,542 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 15 completed in 1323 seconds.
+Launcher: Task 15 done. Exiting.
+211217-16:41:50,634 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:50,674 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:50,899 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:50,899 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 11 completed in 1327 seconds.
+Launcher: Task 21 done. Exiting.
+211217-16:41:53,407 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:53,930 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:54,230 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:54,230 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 10 completed in 1330 seconds.
+Launcher: Task 22 done. Exiting.
+211217-16:41:56,451 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:56,636 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:57,792 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:57,799 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:41:58,43 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:41:58,44 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 18 completed in 1332 seconds.
+Launcher: Task 20 done. Exiting.
+211217-16:41:59,498 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:42:00,648 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:42:00,648 cli IMPORTANT:
+	 Participant level finished successfully.
+211217-16:42:00,741 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:42:00,741 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 29 completed in 1327 seconds.
+Launcher: Task 9 done. Exiting.
+Launcher: Job 12 completed in 1336 seconds.
+Launcher: Task 8 done. Exiting.
+211217-16:42:01,972 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:42:01,972 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 25 completed in 1332 seconds.
+Launcher: Task 18 done. Exiting.
+211217-16:42:02,434 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:42:03,641 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:42:03,641 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 14 completed in 1338 seconds.
+Launcher: Task 10 done. Exiting.
+211217-16:42:04,765 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:42:05,918 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:42:05,927 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:42:06,445 cli WARNING:
+	 Building bold report: no exclude index was found
+211217-16:42:08,881 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:42:08,881 cli IMPORTANT:
+	 Participant level finished successfully.
+211217-16:42:09,423 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:42:09,423 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 19 completed in 1343 seconds.
+Launcher: Task 6 done. Exiting.
+Launcher: Job 13 completed in 1344 seconds.
+Launcher: Task 11 done. Exiting.
+211217-16:42:10,629 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+211217-16:42:10,629 cli IMPORTANT:
+	 Participant level finished successfully.
+Launcher: Job 30 completed in 1335 seconds.
+Launcher: Task 7 done. Exiting.
+Launcher: Done. Job exited without errors
+ 
+ Job complete at Fri Dec 17 16:42:10 CST 2021
+ 
+Job duration: 00:22:40 (1360 s)

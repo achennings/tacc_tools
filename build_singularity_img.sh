@@ -11,13 +11,13 @@ MRIQC_VERS=0.16.1
 SINGULARITY_NOHTTPS=yes 
 
 #echo DOING NOTHING, UNCOMMENT WHICH IMAGES TO BUILD IN THE FILE
-singularity build \
-    ${DEST}/fmriprep.sif \
-    docker://nipreps/fmriprep:${FMRIPREP_VERS}
-
 #singularity build \
-#    ${DEST}/mriqc.sif \
-#    docker://poldracklab/mriqc:${MRIQC_VERS}
+#    ${DEST}/fmriprep.sif \
+#    docker://nipreps/fmriprep:${FMRIPREP_VERS}
+
+singularity build \
+    ${DEST}/mriqc.sif \
+    docker://nipreps/mriqc:latest
 
 #singularity build \
 #    ${DEST}/neurodocker.sif \
